@@ -13,7 +13,7 @@ public:
 
 private:
     const int REFRESH_DELAY = 120;
-    const int POLLING_DELAY = 5;
+    const int POLLING_DELAY = 10;
     String currentCommand;
     std::stringstream outputBuffer;
     int xPos, yPos, dx, dy;

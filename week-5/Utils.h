@@ -8,3 +8,6 @@ void printHeader(const std::string& headerFile);
 std::string toLowerCase(const std::string& str);
 int kbhit();
 char getch();
+
+int getTerminalWidth();
+int getTerminalHeight();
